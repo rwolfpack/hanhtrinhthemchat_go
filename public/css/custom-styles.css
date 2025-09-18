@@ -1,0 +1,857 @@
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .bg-line {
+    transition: none;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-img {
+    transition: none;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item .bg-line,
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .bg-line {
+    background-color: #000;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1,
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 {
+    left: 92px;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2,
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 {
+    left: 440px;
+    z-index: 2;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3,
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 {
+    left: 784px;
+    z-index: 1;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .content-title {
+    bottom: 446px;
+    left: calc(50% - 507px);
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1 .voyager-img,
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 .voyager-img {
+    width: 480px;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2 .voyager-img,
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 .voyager-img {
+    width: 440px;
+    bottom: 18px;
+    left: -8px;
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3 .voyager-img,
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 .voyager-img {
+    left: -29px;
+    width: 481px;
+    bottom: 3px;
+}
+
+.voyagers-section .voyager-slogan-screen {
+    background-position-x: center;
+    background-position-y: bottom;
+    background-image: url('/static/img/voyagers/main-voyagers-slogame-map-bg.png');
+    background-color: #7e1f1f;
+    background-size: cover;
+}
+
+.voyagers-section .intro-slogan {
+    background: rgba(237, 28, 36, 0.45);
+}
+
+.voyagers-section .bg-holder {
+    background: linear-gradient(to right, #1d0101, #a61e1e);
+}
+
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item {
+    opacity: 1!important;
+}
+
+.voyagers-section .voyager-slogan-screen .slogan-layout .section-slogan-title .section-title {
+    font-size: 64px;
+    color: rgba(254, 248, 230, 1);
+}
+
+.voyagers-section .voyager-slogan-screen .slogan-layout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: 110px;
+}
+
+.voyagers-section .voyager-slogan-screen .slogan-layout .section-slogan-title {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: initial;
+    width: auto;
+}
+
+.voyagers-section .voyager-slogan-screen .slogan-layout .section-slogan-title .section-title {
+    line-height: 1.3;
+    margin: 0
+}
+
+.the-journey-beginning h5 {
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.the-journey-beginning h1 {
+    text-transform: uppercase;
+    color: rgba(254, 248, 230, 1);
+    margin-bottom: 0;
+    font-size: 145px;
+    line-height: 1.3;
+}
+
+.lets-go-slogan {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    height: 100%;
+    align-content: flex-end;
+    padding-left: 87px;
+    padding-bottom: 118px;
+}
+
+/* footer progress-bar */
+/* body .progress-bar-holder .container .progress-bar .milestone-list .milestone-item#milestone-1,
+html .progress-bar-holder .container .progress-bar .milestone-list .milestone-item#milestone-1 {
+    left: 95px;
+}
+
+body .progress-bar-holder .container .progress-bar .milestone-list .milestone-item#milestone-2,
+html .progress-bar-holder .container .progress-bar .milestone-list .milestone-item#milestone-2 {
+    left: 415px;
+    right: inherit;
+}
+
+body .progress-bar-holder .container .progress-bar .milestone-list .milestone-item#milestone-3,
+html .progress-bar-holder .container .progress-bar .milestone-list .milestone-item#milestone-3 {
+    right: 0;
+} */
+
+body .green-banana-txt, html .green-banana-txt {
+    color: #67d100;
+}
+
+/* voyagers */
+.voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-detail .desc {
+    font-size: 17px;
+}
+
+/* start-northernmost-ha-giang */
+.primary-slide-sections-holder .start-northernmost-ha-giang.page-section {
+    width: 110vw
+}
+
+.start-northernmost-ha-giang {
+    z-index: 4
+}
+
+.start-northernmost-ha-giang .main-content {
+    display: flex;
+    height: 100%
+}
+
+.start-northernmost-ha-giang .introduction-column {
+    display: flex;
+    flex: 0 0 700px;
+    height: 100%;
+    position: relative
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content {
+    background: url('/static/img/voyagers/main-start-northernmost-ha-giang.png');
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow: hidden;
+    padding: 60px;
+    position: relative;
+    width: 100%;
+    z-index: 2
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor,.start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context {
+    position: relative
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h1 {
+    color: #fef8e6;
+    font-size: 128px;
+    line-height: 1.1;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h5 {
+    font-size: 64px;
+    line-height: 1;
+    margin: 15px 0 0;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .challenge-context {
+    background: linear-gradient(rgba(88,0,6,.45),rgba(162,186,36,.5));
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all .5s ease-out;
+    width: 100%;
+    z-index: 1
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail {
+    color: #fff;
+    height: auto;
+    left: 80px;
+    padding: 35px;
+    position: absolute;
+    top: 340px;
+    width: 500px;
+    z-index: 2
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .bg-el {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .bg-el .color-bg {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .bg-el .border-decor {
+    border: 2px solid #fff;
+    height: 100%;
+    left: -35px;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    z-index: 1
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .context-el {
+    position: relative;
+    z-index: 2
+}
+
+.start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .context-el p {
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: normal
+}
+
+.start-northernmost-ha-giang .content-column {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    z-index: 3
+}
+
+.start-northernmost-ha-giang .content-column .left-column {
+    background-color: #270303;
+    flex-basis: 620px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative
+}
+
+.start-northernmost-ha-giang .content-column .left-column .bg-mode {
+    height: 100%;
+}
+
+.start-northernmost-ha-giang .content-column .right-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%
+}
+
+.start-northernmost-ha-giang .content-column .right-column .bottom-clip,.start-northernmost-ha-giang .content-column .right-column .top-clip {
+    background-color: #000;
+    flex-basis: 50%;
+    flex-grow: 0;
+    height: 50%;
+    overflow: hidden;
+    width: 100%
+}
+
+.start-northernmost-ha-giang .content-column .right-column .bottom-clip figure,.start-northernmost-ha-giang .content-column .right-column .top-clip figure {
+    height: 100%;
+    width: 100%
+}
+
+/* end-northernmost-ha-giang */
+.end-northernmost-ha-giang {
+    z-index: 4
+}
+
+.end-northernmost-ha-giang h1 {
+    color: #fef8e6;
+    font-size: 128px;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+.end-northernmost-ha-giang h5.normal {
+    color: #fff;
+    font-size: 64px;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+.end-northernmost-ha-giang h5.bordered-txt {
+    -webkit-text-stroke: 2px #fef8e6;
+    text-stroke: 2px #fef8e6;
+    color: transparent;
+    font-size: 64px;
+    line-height: 1;
+    margin: 0;
+    position: relative;
+    text-shadow: none;
+    text-transform: uppercase
+}
+
+.end-northernmost-ha-giang .bg-layer {
+    background: url('/static/img/voyagers/end-northernmost-ha-giang.png');
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    height: calc(100% - 96px);
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0
+}
+
+.end-northernmost-ha-giang .main-content {
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.end-northernmost-ha-giang .main-content div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center
+}
+
+.end-northernmost-ha-giang .ending-screen {
+    height: 100%;
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3
+}
+
+.end-northernmost-ha-giang .ending-screen .ending-bg {
+    background-color: #142012;
+    height: calc(100% - 96px);
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2
+}
+
+.end-northernmost-ha-giang .ending-screen .ending-bg:before {
+    background-color: #142012;
+    content: "";
+    height: 100%;
+    left: -2px;
+    position: absolute;
+    top: 0;
+    width: 4px;
+    z-index: 3
+}
+
+.end-northernmost-ha-giang .ending-screen .ending-bg:after {
+    background-color: #feeed4;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 4px;
+    z-index: 3
+}
+
+.end-northernmost-ha-giang .ending-screen .ending-bg .img-holder {
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    width: 99%
+}
+
+.end-northernmost-ha-giang .ending-screen .ending-bg .gradient-bg {
+    background: linear-gradient(90deg,#142012,#142012 10%,transparent 33%,transparent 66%,#ee8e65 90%,#fef0d6);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150vw;
+    z-index: 3
+}
+
+.end-northernmost-ha-giang .ending-screen .ending-bg .gradient-bg:before {
+    background-color: #142012;
+    content: "";
+    height: 100%;
+    left: -2px;
+    position: absolute;
+    top: 0;
+    width: 4px;
+    z-index: 5
+}
+
+.end-northernmost-ha-giang .ending-screen .text-holder {
+    height: calc(100% - 96px);
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2
+}
+
+.end-northernmost-ha-giang .ending-screen .text-holder .line-1,.end-northernmost-ha-giang .ending-screen .text-holder .line-2 {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%
+}
+
+.end-northernmost-ha-giang .ending-screen .text-holder .line-1 .text-item,.end-northernmost-ha-giang .ending-screen .text-holder .line-2 .text-item {
+    color: #fef8e6;
+    font-size: 128px;
+    line-height: 1.5;
+    margin: 0 0 -25px;
+    overflow: hidden
+}
+
+.end-northernmost-ha-giang .ending-screen .text-holder .line-1 .text-item .context,.end-northernmost-ha-giang .ending-screen .text-holder .line-2 .text-item .context {
+    display: inline-block;
+    opacity: 0
+}
+
+
+/* Responsive */
+@media only screen and (max-height: 730px) and (min-width: 1081px) {
+    /* voyagers */
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-detail {
+        margin-top: 15px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-detail .desc {
+        font-size: 13px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .content-title {
+        bottom: 400px;
+        left: calc(50% - 368px);
+        width: 749px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 .voyager-img {
+        width: 425px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 .voyager-img {
+        width: 375px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 .voyager-img {
+        left: -70px;
+        width: 400px;
+        bottom: 32px;
+    }
+
+    /* Slogan */
+    .voyagers-section .voyager-slogan-screen .slogan-layout .section-slogan-title .section-title {
+        font-size: 50px;
+    }
+
+    .the-journey-beginning h5 {
+        font-size: 40px;
+    }
+
+    .the-journey-beginning h1 {
+        font-size: 90px;
+        line-height: 1.2;
+    }
+
+    .lets-go-slogan {
+        font-size: 40px;
+        padding-left: 80px;
+        padding-bottom: 100px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h1 {
+        font-size: 92px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h5 {
+        font-size: 48px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .context-el p {
+        font-size: 12px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail {
+        padding: 22px;
+        bottom: 50px;
+        width: 400px;
+        top: initial;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .bg-el .border-decor {
+        left: -25px;
+        top: 25px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column {
+        flex: 0 0 550px;
+    }
+
+    .start-northernmost-ha-giang .content-column .left-column {
+        flex-basis: 500px;
+    }
+
+    /* hero-banner-section */
+    .hero-banner-section .img-holder.bg-img.bg-mode video {
+        height: auto;
+    }
+}
+
+@media only screen and (max-height: 720px) and (min-width: 1081px) {
+    /* voyagers */
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-detail {
+        margin-top: 15px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-detail .desc {
+        font-size: 13px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .content-title {
+        bottom: 369px;
+        left: calc(50% - 371px);
+        width: 731px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 {
+        left: 92px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 .voyager-img {
+        width: 395px;
+        left: -20px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 {
+        left: 364px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 .voyager-img {
+        width: 315px;
+        bottom: 55px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 {
+        left: 654px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 .voyager-img {
+        left: -63px;
+        width: 330px;
+        bottom: 69px;
+    }
+
+    /* Slogan */
+    .voyagers-section .voyager-slogan-screen .slogan-layout .section-slogan-title .section-title {
+        font-size: 48px;
+    }
+
+    .the-journey-beginning h5 {
+        font-size: 40px;
+    }
+
+    .the-journey-beginning h1 {
+        font-size: 90px;
+        line-height: 1.2;
+    }
+
+    .lets-go-slogan {
+        font-size: 40px;
+        padding-left: 80px;
+        padding-bottom: 100px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content {
+        padding: 40px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h1 {
+        font-size: 92px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h5 {
+        font-size: 48px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .context-el p {
+        font-size: 12px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail {
+        padding: 22px;
+        bottom: 67px;
+        width: 400px;
+        top: initial;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .bg-el .border-decor {
+        left: -35px;
+        top: 35px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column {
+        flex: 0 0 550px;
+    }
+
+    .start-northernmost-ha-giang .content-column .left-column {
+        flex-basis: 500px;
+    }
+
+    .end-northernmost-ha-giang h1 {
+        font-size: 64px;
+    }
+
+    .end-northernmost-ha-giang h5 {
+        font-size: 48px;
+    }
+
+    /* hero-banner-section */
+    .hero-banner-section .img-holder.bg-img.bg-mode video {
+        height: auto;
+    }
+}
+
+@media only screen and (max-height: 640px) and (min-width: 1081px) {
+    /* voyagers */
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-detail {
+        margin-top: 0;
+        padding: 20px 0;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item .voyager-detail .desc {
+        font-size: 12px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .content-title {
+        bottom: 290px;
+        left: calc(50% - 364px);
+        width: 680px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 {
+        left: 9px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 .voyager-img {
+        width: 313px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 {
+        left: 238px;
+        z-index: 2;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 .voyager-img {
+        width: 282px;
+        bottom: 18px;
+        left: -7px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 {
+        left: 519px;
+        z-index: 1;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 .voyager-img {
+        left: -83px;
+        width: 300px;
+        bottom: 25px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item {
+        width: 210px;
+    }
+
+    /* Slogan */
+    .voyagers-section .voyager-slogan-screen .slogan-layout .section-slogan-title .section-title {
+        font-size: 50px;
+    }
+
+    .the-journey-beginning h5 {
+        font-size: 40px;
+    }
+
+    .the-journey-beginning h1 {
+        font-size: 90px;
+        line-height: 1.2;
+    }
+
+    .lets-go-slogan {
+        font-size: 40px;
+        padding-left: 80px;
+        padding-bottom: 100px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h1 {
+        font-size: 88px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .title-with-decor .title-context h5 {
+        font-size: 44px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .context-el p {
+        font-size: 12px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail {
+        padding: 22px;
+        bottom: 50px;
+        width: 405px;
+        top: initial;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content .challenge-context .primary-detail .bg-el .border-decor {
+        left: -25px;
+        top: 25px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column {
+        flex: 0 0 550px;
+    }
+
+    .start-northernmost-ha-giang .content-column .left-column {
+        flex-basis: 500px;
+    }
+
+    .start-northernmost-ha-giang .introduction-column .detail-content {
+        padding: 30px 50px;
+    }
+
+    .end-northernmost-ha-giang h1 {
+        font-size: 64px;
+    }
+
+    .end-northernmost-ha-giang h5 {
+        font-size: 44px;
+    }
+
+    /* hero-banner-section */
+    .hero-banner-section .img-holder.bg-img.bg-mode video {
+        height: 100%;
+        object-fit: fill;
+    }
+}
+
+@media only screen and (max-height: 600px) and (min-width: 1081px) {
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 {
+        left: 9px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-1 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-1 .voyager-img {
+        width: 323px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 {
+        left: 235px;
+        z-index: 2;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-2 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-2 .voyager-img {
+        width: 287px;
+        bottom: 11px;
+        left: -2px;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 {
+        left: 538px;
+        z-index: 1;
+    }
+
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-bg .voyager-item.voyager-3 .voyager-img,
+    .voyagers-section .main-content .voyagers-wrapper .voyagers-list-layout .voyager-item.voyager-3 .voyager-img {
+        left: -95px;
+        width: 304px;
+        bottom: 13px;
+    }
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Go Server Service
+[Service]
+ExecStart=/home/webdev/web_motul/webhtml
+WorkingDirectory=/home/webdev/web_motul
+User=root
+Group=root
+Restart=always
+[Install]
+WantedBy=multi-user.target

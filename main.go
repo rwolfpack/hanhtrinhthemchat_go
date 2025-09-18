@@ -1,0 +1,97 @@
+package main
+
+import (
+	"log"
+	"net/http"
+	"os"
+	"strings"
+
+	"github.com/joho/godotenv"
+)
+
+type PageData struct {
+	Site string
+}
+
+func main() {
+	port := os.Getenv("WEBSITE_PORT")
+	if port == "" {
+		port = "5004"
+	}
+
+	domain := os.Getenv("DOMAIN")
+	if domain == "" {
+		domain = "http://localhost:" + port
+	}
+
+	// Static file handler
+	fs := http.FileServer(http.Dir("./public/"))
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
+
+	// Template handler for home page
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path == "/" {
+			ua := r.UserAgent()
+			var templatePath string
+
+			// Detect Mobile User-Agent
+			if strings.Contains(ua, "Mobile") || strings.Contains(ua, "Android") || strings.Contains(ua, "iPhone") {
+				templatePath = "views/layouts/master_m.html"
+			} else {
+				templatePath = "views/layouts/master.html"
+			}
+
+			serveTemplate(w, r, templatePath, domain)
+		} else {
+			http.NotFound(w, r)
+		}
+	})
+
+	log.Printf("Server starting on port %s", port)
+	log.Printf("Visit: %s", domain)
+	log.Fatal(http.ListenAndServe(":"+port, nil))
+}
+
+func serveTemplate(w http.ResponseWriter, r *http.Request, templatePath, siteURL string) {
+	// Read the main template file
+	content, err := os.ReadFile(templatePath)
+	if err != nil {
+		log.Printf("Error reading template %s: %v", templatePath, err)
+		http.Error(w, "Template not found", http.StatusNotFound)
+		return
+	}
+
+	// Read the js_tracking partial
+	trackingContent, err := os.ReadFile("views/partials/js_tracking.html")
+	if err != nil {
+		log.Printf("Error reading js_tracking partial: %v", err)
+		trackingContent = []byte("") // Empty if not found
+	}
+
+	// Simple string replacement approach for {{site}} placeholders
+	htmlContent := string(content)
+	htmlContent = strings.ReplaceAll(htmlContent, "{{site}}", siteURL)
+
+	// Handle the js_tracking template inclusion
+	trackingHTML := string(trackingContent)
+	// Remove the template definition wrapper and just get the content
+	if strings.Contains(trackingHTML, "{{ define \"js_tracking\"}}") {
+		start := strings.Index(trackingHTML, "{{ define \"js_tracking\"}}")
+		end := strings.LastIndex(trackingHTML, "{{ end }}")
+		if start >= 0 && end > start {
+			trackingHTML = trackingHTML[start+len("{{ define \"js_tracking\"}}"):end]
+		}
+	}
+
+	htmlContent = strings.ReplaceAll(htmlContent, "{{template \"js_tracking\"}}", trackingHTML)
+
+	// Serve the processed HTML
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	w.Write([]byte(htmlContent))
+}
+
+func init() {
+	if err := godotenv.Load(); err != nil {
+		log.Println("Không tìm thấy file .env, dùng biến môi trường hệ thống")
+	}
+}
